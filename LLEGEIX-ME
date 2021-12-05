@@ -1,0 +1,23 @@
+git clone https://github.com/dacomo2021daw2/prjava02.git
+git status
+git ls-tree -r main
+https://github.com/macasa2122daw2/prjava02.git
+git remote add origin https://github.com/macasa2122daw2/prjava02.git
+git branch -M main
+git push -u origin main
+git merge branca00
+git push 
+git status
+git push --set-upstream origin branca01 
+
+6.- Des de geany, actualitza el contingut del fitxer Prjava02.java. Pots veure l'última línia afegida?. Per què? 
+No,el fitxer amb la linea 29 s’ha realitzat a la branch branca00.
+
+7.- Torna a la branca branca00. Des de geany, actualitza el contingut del fitxer Prjava02.java. Pots veure l'última línia afegida?. Per què?.
+Una vegada realitzem el canvi de branca amb git checkout nom_de_la_branca, ja apareix la linea 29.
+
+12c) Comprova que només s'ha actualitzat la branca main únicament. Per què?.
+Només s’ha actualitzat aquesta branca perquè ha sigut en la unica que hem fet un push.
+
+14c) A quants commits de distància (commit ahead) està de la branca main?
+A 6 commits
